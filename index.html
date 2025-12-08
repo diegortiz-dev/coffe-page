@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aurora Coffe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="hero-banner">
+        <div class="hero-content">
+            <h1 class="brand-name">
+                <span class="letter">A</span>
+                <span class="letter">u</span>
+                <span class="letter">r</span>
+                <span class="letter">o</span>
+                <span class="letter">r</span>
+                <span class="letter">a</span>
+                <span class="space"></span>
+                <span class="letter">C</span>
+                <span class="letter">o</span>
+                <span class="letter">f</span>
+                <span class="letter">f</span>
+                <span class="letter">e</span>
+                <span class="letter">e</span>
+            </h1>
+            <p class="tagline">Onde cada xícara é uma obra de arte</p>
+        </div>
+    </div>
+
+    <header class="header">
+        <section>
+            <a href="#" class="logo">
+                <img src="img/logo.png" alt="Logo Aurora Coffee" class="logo">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#menu">Menu</a>
+                <a href="#about">Sobre Nós</a>
+                <a href="#reviews">Avaliações</a>
+                <a href="#address">Endereço</a>
+            </nav>
+
+            <div class="icons">
+                <div class="search-icon">
+                    <img width="30" height="30" src="https://img.icons8.com/ios-filled/50/search--v2.png" alt="search"/>
+                </div>
+                <div class="cart-icon">
+                    <img width="30" height="30" src="https://img.icons8.com/material-outlined/30/shopping-cart--v1.png" alt="cart"/>
+                    <span class="cart-count">0</span>
+                </div>
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <div class="search-form">
+        <input type="search" placeholder="Buscar café..." id="search-box">
+        <label for="search-box">🔍</label>
+    </div>
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>café fresco pela manhã</h3>
+            <p>Desperte seus sentidos com nossos grãos selecionados, torrados artesanalmente para proporcionar a experiência perfeita em cada xícara.</p>
+            <a href="#menu" class="btn">peça agora</a>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <h1 class="heading">nosso <span>menu</span></h1>
+        <div class="box-container">
+            <div class="box reveal">
+                <img src="img/menu-1.png" alt="Espresso">
+                <h3>espresso clássico</h3>
+                <div class="price">R$ 8,90</div>
+                <a href="#" class="btn add-to-cart" data-name="Espresso Clássico" data-price="8.90">adicionar ao carrinho</a>
+            </div>
+            <div class="box reveal">
+                <img src="img/menu-2.png" alt="Cappuccino">
+                <h3>cappuccino cremoso</h3>
+                <div class="price">R$ 12,90</div>
+                <a href="#" class="btn add-to-cart" data-name="Cappuccino Cremoso" data-price="12.90">adicionar ao carrinho</a>
+            </div>
+            <div class="box reveal">
+                <img src="img/menu-3.png" alt="Latte">
+                <h3>latte especial</h3>
+                <div class="price">R$ 14,90</div>
+                <a href="#" class="btn add-to-cart" data-name="Latte Especial" data-price="14.90">adicionar ao carrinho</a>
+            </div>
+            <div class="box reveal">
+                <img src="img/menu-4.png" alt="Mocha">
+                <h3>mocha chocolate</h3>
+                <div class="price">R$ 15,90</div>
+                <a href="#" class="btn add-to-cart" data-name="Mocha Chocolate" data-price="15.90">adicionar ao carrinho</a>
+            </div>
+            <div class="box reveal">
+                <img src="img/menu-5.png" alt="Macchiato">
+                <h3>macchiato caramelo</h3>
+                <div class="price">R$ 13,90</div>
+                <a href="#" class="btn add-to-cart" data-name="Macchiato Caramelo" data-price="13.90">adicionar ao carrinho</a>
+            </div>
+            <div class="box reveal">
+                <img src="img/menu-6.png" alt="Americano">
+                <h3>americano intenso</h3>
+                <div class="price">R$ 9,90</div>
+                <a href="#" class="btn add-to-cart" data-name="Americano Intenso" data-price="9.90">adicionar ao carrinho</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <h1 class="heading reveal">sobre <span>nós</span></h1>
+        <div class="row">
+            <div class="image reveal">
+                <img src="img/about-img.jpg" alt="Sobre Aurora Coffee">
+            </div>
+            <div class="content reveal">
+                <h3>o que torna nosso café especial?</h3>
+                <p>Na Aurora Coffee, acreditamos que cada xícara conta uma história. Desde 2010, selecionamos os melhores grãos de cafeterias sustentáveis ao redor do mundo, garantindo qualidade excepcional e sabor incomparável.</p>
+                <p>Nossa paixão pelo café vai além da bebida - criamos experiências memoráveis em um ambiente acolhedor, onde cada cliente é parte da nossa família.</p>
+                <a href="#menu" class="btn">saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews" id="reviews">
+        <h1 class="heading reveal">avaliações dos <span>clientes</span></h1>
+        <div class="box-container">
+            <div class="box reveal">
+                <img src="img/pic-1.png" alt="Cliente 1" class="quote-img">
+                <p>Simplesmente o melhor café da cidade! O ambiente é acolhedor e o atendimento impecável. Meu cappuccino favorito de todos os tempos.</p>
+                <img src="img/pic-1.png" alt="João Cleber" class="user">
+                <h3>João Cleber</h3>
+                <div class="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <div class="box reveal">
+                <img src="img/pic-2.png" alt="Cliente 2" class="quote-img">
+                <p>Qualidade excepcional! Os grãos são frescos e o sabor é incomparável. Virou minha parada obrigatória todas as manhãs.</p>
+                <img src="img/pic-2.png" alt="Maria Silva" class="user">
+                <h3>Maria Silva</h3>
+                <div class="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+            <div class="box reveal">
+                <img src="img/pic-3.png" alt="Cliente 3" class="quote-img">
+                <p>Ambiente perfeito para trabalhar ou relaxar. O café é delicioso e a equipe sempre atenciosa. Recomendo muito!</p>
+                <img src="img/pic-3.png" alt="Lucas Guimarães" class="user">
+                <h3>Lucas Guimarães</h3>
+                <div class="stars">
+                    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="address" id="address">
+        <h1 class="heading reveal">nosso <span>endereço</span></h1>
+        <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1976!2d-46.6543!3d-23.5615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDMzJzQxLjQiUyA0NsKwMzknMTUuNSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890" allowfullscreen="" loading="lazy" class="map"></iframe>
+            <form>
+                <h3>Entre em contato</h3>
+                <div class="inputBox">
+                    <span>nome</span>
+                    <input type="text" placeholder="Digite seu nome">
+                </div>
+                <div class="inputBox">
+                    <span>email</span>
+                    <input type="email" placeholder="Digite seu email">
+                </div>
+                <div class="inputBox">
+                    <span>telefone</span>
+                    <input type="tel" placeholder="Digite seu telefone">
+                </div>
+                <input type="submit" value="Enviar mensagem" class="btn">
+            </form>
+        </div>
+        <div class="info">
+            <div class="box">
+                <h3>📍 localização</h3>
+                <p>Rua das Flores, 123 - Centro</p>
+                <p>São Paulo - SP, 01234-567</p>
+            </div>
+            <div class="box">
+                <h3>📞 contato</h3>
+                <p>(35) 91018-8806</p>
+                <p>contato@emailrandom.com.br</p>
+            </div>
+            <div class="box">
+                <h3>🕐 horário</h3>
+                <p>Segunda a Sexta: 7h - 20h</p>
+                <p>Sábado e Domingo: 8h - 22h</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="social-links">
+            <a href="#">📘</a>
+            <a href="#">📷</a>
+            <a href="#">🐦</a>
+        </div>
+        <p>&copy; 2025 Aurora Coffee. Todos os direitos reservados.</p>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop">↑</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
